@@ -14,7 +14,7 @@ let studenti = [
 
  for (let i = 0; i < studenti.length; i++) {
      const player = studenti[i];
-      console.log(`Nome giocatore: ${player.nome} - Ruolo: ${player.ruolo}`);
+      console.log(`Nome giocatore: ${player.nome}, Ruolo: ${player.ruolo}`);
       
  }
 
